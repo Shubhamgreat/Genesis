@@ -1,0 +1,17 @@
+//----------------------------------------------------------------------------//
+//  SEARCH
+//----------------------------------------------------------------------------//
+.global-search {
+    .form-control {
+        border-radius: calcRem(50);
+    }
+    
+    @include media-breakpoint-up(xl) {
+        max-width: calcRem(180);
+    }
+}
+
+.mobile-search {
+    background: $white;
+    border-radius: calcRem(12) calcRem(12) 0 0;
+}

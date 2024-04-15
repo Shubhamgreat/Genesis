@@ -1,0 +1,48 @@
+.bg-image {
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-overlay {
+    &::before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(#000000, .4);
+        z-index: 1;
+    }
+}
+
+.full-width-image-block {
+    min-height: calcRem(345);
+    @include media-breakpoint-up(lg) {
+        min-height: calcRem(530);
+    }
+}
+
+.hero-with-icon-nav {
+    &.large {
+        min-height: calcRem(510);
+        @include media-breakpoint-up(lg) {
+            min-height: calcRem(600);
+        }
+    }
+
+    &.medium {
+        min-height: calcRem(510);
+        @include media-breakpoint-up(lg) {
+            min-height: calcRem(500);
+        }
+    }
+
+    &.small {
+        min-height: calcRem(510);
+        @include media-breakpoint-up(lg) {
+            min-height: calcRem(200);
+        }
+    }
+}

@@ -1,0 +1,75 @@
+//----------------------------------------------------------------------------//
+// _GLOBALS
+//----------------------------------------------------------------------------//
+$element-sides: top, right, bottom, left !default; // DO NOT EDIT
+//----------------------------------------------------------------------------//
+// BORDERS
+//----------------------------------------------------------------------------//
+$enable-responsive-border-classes: true;
+$enable-responsive-border-radius-classes: true !default;
+//----------------------------------------------------------------------------//
+// COLORS
+//----------------------------------------------------------------------------//
+$enable-responsive-inverted-color-classes:  false !default;
+$enable-responsive-color-classes:           true !default;
+$enable-responsive-bg-color-classes:        true;
+// Inverted Text Colors
+$body-color-inverted:                       $white !default;
+$link-color-inverted:                       $white !default;
+$link-hover-color-inverted:                 $white !default;
+//----------------------------------------------------------------------------//
+// CURSORS
+//----------------------------------------------------------------------------//
+$enable-responsive-pointer-cursors: false !default;
+$enable-responsive-default-cursors: false !default;
+//----------------------------------------------------------------------------//
+// MAX WIDTH
+//----------------------------------------------------------------------------//
+$enable-responsive-mw-classes:  true !default;
+//----------------------------------------------------------------------------//
+// OPACITY
+//----------------------------------------------------------------------------//
+$enable-responsive-opacity-classes: false !default;
+$opacity: (
+    0 : 0,
+    1 : 0.1,
+    2 : 0.2,
+    3 : 0.3,
+    4 : 0.4,
+    5 : 0.5,
+    6 : 0.6,
+    7 : 0.7,
+    8 : 0.8,
+    9 : 0.9,
+    10 : 1
+) !default;
+//----------------------------------------------------------------------------//
+// POSITIONING
+//----------------------------------------------------------------------------//
+$enable-responsive-centering-elements: true;
+$enable-responsive-side-offsets: true;
+//----------------------------------------------------------------------------//
+// Text
+//----------------------------------------------------------------------------//
+$enable-responsive-text-size: true;
+
+$letter-spacing-body: inherit !default;
+$letter-spacing-heading: inherit !default;
+$word-spacing-body: inherit !default;
+$word-spacing-heading: inherit !default;
+
+$text-styles: (
+    h1: (min: 48, max: 64),
+    h2: (min: 30, max: 36),
+    h3: (min: 20, max: 24),
+    h4: (min: 18, max: 22),
+    body: (min: 14, max: 16)
+);
+
+$text-sizes: (
+    xs: 0.35,
+    sm: 0.5,
+    base: 1,
+    lg: 1.5,
+    xl: 1.75
+);

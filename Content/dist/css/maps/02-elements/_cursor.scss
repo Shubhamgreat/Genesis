@@ -1,0 +1,28 @@
+
+.c-pointer {
+    cursor: pointer;
+}
+
+.c-default {
+    cursor: default;
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @if $breakpoint != xs {
+        @include media-breakpoint-up($breakpoint) {
+            @if $enable-responsive-pointer-cursors == true {
+                .c-#{$breakpoint}-pointer {
+                    cursor: pointer;
+                }
+            }
+
+            @if $enable-responsive-default-cursors == true {
+                .c-#{$breakpoint}-default {
+                    cursor: default;
+                }
+            }
+        }
+    }
+}
+
+

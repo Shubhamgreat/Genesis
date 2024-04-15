@@ -1,0 +1,25 @@
+//-------------------------------------------------------------------------------------------//
+//  RESPONSIVE TYPOGRAPHY
+//      -   Fluidly size fonts using a minimum and maximum font size
+//          ---
+//          Usage: font-size: @include font-size(14, 18);
+//-------------------------------------------------------------------------------------------//
+
+$font-calc-min-width: 320;
+$font-calc-max-width: 1320;
+
+@mixin r-font-size($min-font-size, $max-font-size) {
+    // create unitless rem values to make calc() equation easier (otherwise you have to strip units and Sass gets mad)
+    $min-font-rem: $min-font-size / 16; 
+    $max-font-rem: $max-font-size / 16; // create unitless rem units for caclulation
+    // Font size on containers smaller than the lowest breakpoint in the $breakpoints map 
+    font-size: calcRem($min-font-size);
+    // Calculate font size between min and max viewport widths set
+    @media (min-width: calcRem($font-calc-min-width)) {
+        font-size:  calc(#{$min-font-size}px + #{$max-font-size - $min-font-size} * ((100vw - #{$font-calc-min-width}px) / #{$font-calc-max-width - $font-calc-min-width}));
+    }
+    // Font size on containers larger than the highest breakpoint in the $breakpoints map
+    @media (min-width: calcRem($font-calc-max-width)) {
+        font-size: calcRem($max-font-size);
+    }
+}

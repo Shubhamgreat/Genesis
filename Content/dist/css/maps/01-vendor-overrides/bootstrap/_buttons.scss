@@ -1,0 +1,7 @@
+.btn {
+    @include r-font-size(16, 20);
+}
+
+.btn-sm {
+    font-size: calcRem(14);
+}

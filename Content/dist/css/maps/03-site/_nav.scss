@@ -1,0 +1,574 @@
+//--------------------------------------------------------------------//
+//  NAVBAR STYLING
+//--------------------------------------------------------------------//
+.navbar {
+    z-index: 1;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+}
+
+//  Add bottom spacing to vertically aligned with bottom of logo text
+.navbar-brand {
+    img {
+        max-width: 120px;
+    }
+    @include media-breakpoint-up(md) {
+        img {
+            max-width: 174px;
+        }
+    }
+    @include media-breakpoint-up(xl) {
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+//--------------------------------------------------------------------//
+//  MAIN NAV BACKGROUND COLOR FOR STUCK/ UNSTUCK POSITIONS
+//--------------------------------------------------------------------//
+.main-nav {
+    background-color: $white;
+    font-family: $font-family-inter;
+    box-shadow: none;
+    transition: $transition-base;
+    @include media-breakpoint-up(lg) {
+        // background-color: transparent;
+        box-shadow: none;
+        transition: all 125ms;
+    }
+    a:not(.btn) {
+        text-decoration: none; 
+        color: $primary-master;
+    }
+    &.stuck {
+        box-shadow: $box-shadow;
+    }
+    .navbar {
+        @include media-breakpoint-up(xl) {
+            padding: .5rem 0
+        }
+    }
+    a.text-primary.active {
+        color: $secondary !important;
+    }
+    @include media-breakpoint-up(xl) {
+        a:not(.btn) {
+            color: $body-color;
+        }
+    }
+    
+}
+
+.main-nav, 
+.utility-nav {
+    .container {
+        max-width: calcRem(1320);
+    }
+}
+
+
+.main-nav-container {
+    background: $gray-200;
+    @include media-breakpoint-up(xl) {
+        background: $white;
+        
+    }
+}
+//--------------------------------------------------------------------//
+//  MAIN NAV ITEMS
+//--------------------------------------------------------------------//
+.main-nav-item {
+    border-top: 1px solid $border-color;
+    padding: 1rem 0;
+    a {
+        padding: 0 0 0 1.3rem;
+        color: $primary-master;
+        display: inline-block;
+        &:hover {
+            color: $primary-master;
+            white-space: nowrap;
+        }
+    }
+    @include media-breakpoint-up(xl) {
+        border-top: 0;
+        a {
+            color: $body-color;
+            padding: 0;
+        }
+        .btn,
+        .btn a { 
+            color: $white;
+        }
+    }
+    &.primary {
+        color: $primary-master;
+        font-size: calcRem(16);
+
+        @include media-breakpoint-up(xl) {
+            color: $body-color;
+            font-weight: $font-weight-bold;
+            padding: .5rem 1rem;
+            &:first-child {
+                padding-left: 0;
+            }
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+    }
+    &.primary .active {
+        @include media-breakpoint-up(xl) {
+                color: $secondary;
+        }
+    }
+    &.secondary {
+        border-top: 0;
+        padding-bottom: 0;
+        padding-left: 1.7rem;
+        padding-right: 3rem;
+        padding-top: .75rem;
+        cursor: pointer;
+        text-transform: capitalize;
+        a {
+            padding-right: 0 !important;
+        }
+        @include media-breakpoint-up(xl) {
+            cursor: default;
+            border-top: 0;
+            font-size: calcRem(14);
+            line-height: 1.25;
+            padding: 0;
+            text-transform: uppercase;
+            a {
+                color: $body-color;
+                &:hover {
+                    color: $primary-master;
+                }
+            }
+        }
+    }
+    &.no-children {
+        &.secondary {
+            text-transform: capitalize;
+            font-weight: normal;
+            font-size: calcRem(14);
+            padding-top: 0;
+            margin-top: 0;
+            line-height: 2.25;
+            a {
+                color: $body-color;
+                &:hover {
+                    text-decoration: underline;
+                }
+                padding-left: .1rem;
+            }
+            &:first-of-type {
+                margin-top: -1rem;;
+            }
+            @include media-breakpoint-up(xl) {
+                border-bottom: 0;
+                line-height: 1.72;
+                min-height: auto;
+                margin-top: calcRem(4);
+                // margin-bottom: 1.25rem;
+                a {
+                    color: $primary-master;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+                &:first-of-type {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+.main-nav-item.primary {
+    @include media-breakpoint-up(xl) {
+        transtion: all $transition-base;
+        > .child-nav {
+            opacity: 0;
+            visibility: hidden;
+        }
+        &.show-children  {
+            > .child-nav-toggle {
+                color: $primary-master;
+            }
+            > .child-nav {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}
+
+//--------------------------------------------------------------------//
+//  VARIABLES
+//--------------------------------------------------------------------//
+$navbar-child-subnav-link-color:        $primary-master !default;
+$navbar-child-subnav-font-weight:       $font-weight-normal !default;
+$navbar-child-subnav-text-case:         none !default; // none, uppercase, capitalize 
+
+
+//--------------------------------------------------------------------//
+//  CHILD NAV
+//--------------------------------------------------------------------//
+.child-nav {
+    height: 0;
+    visibility: hidden;
+    &.show {
+        height: auto;
+        visibility: visible;
+        margin-bottom: 0;
+    }
+    @include media-breakpoint-up(xl) {
+        background: $white;
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 100%;
+    }
+}
+
+.child-nav [class^="col-"] {
+    flex: 1 1 auto;
+    width: 100%;
+    @include media-breakpoint-up(xl) {
+        width: 200px;
+    }
+}
+
+.child-nav-toggle {
+    color: $primary-master;
+    &:hover {
+        color: $primary-master;
+    }
+    @include media-breakpoint-up(xl) {
+        color: $body-color;
+    }
+}
+
+.child-nav-toggle, 
+.child-subnav-toggle {
+    cursor: pointer;
+    padding-right: 2rem;
+    @include media-breakpoint-up(xl) {
+        padding-right: 0;
+    }
+}
+
+
+//--------------------------------------------------------------------//
+//  CHILD SUBNAV
+//--------------------------------------------------------------------//
+.child-subnav {
+    display: none;
+    padding-top: .25rem;
+    li {
+        line-height: 2.25;
+    }
+    a {
+        color: $body-color !important;
+        font-weight: $navbar-child-subnav-font-weight;
+        text-transform: $navbar-child-subnav-text-case;
+        padding-left: 3rem;
+        @include media-breakpoint-up(xl) {
+            padding-left: 0;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &.show {
+        display: block;
+        
+    }
+    @include media-breakpoint-up(xl) {
+        display: block;
+        li {
+            line-height: 1.75;
+        }
+        a {
+            color: $primary-master !important;
+        }
+    }
+}
+
+.child-nav-toggle,
+.child-subnav-toggle {
+    @include media-breakpoint-down(lg) {
+        a {
+            display: inline-block;
+        }
+        &.open {
+            a {
+                color: $secondary;
+            }
+            &::after {
+                color: $secondary;
+                transform: rotate(-180deg);
+            }
+        }
+    }
+}
+
+
+//----------------------------------------------------------------------------//
+//  NAVBAR NAV
+//----------------------------------------------------------------------------//
+.navbar-nav {
+    background-color: $white;
+    border-radius: 0 0 calcRem(12) calcRem(12);
+    margin-top: calcRem(2);
+}
+
+
+//----------------------------------------------------------------------------//
+//  UTILITY NAV
+//----------------------------------------------------------------------------//
+.utility-nav {
+    font-family: "Inter", sans-serif;
+    font-size: calcRem(13);
+    line-height: 1;
+    padding: .75rem 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    position: sticky;
+    // top: 0;
+    top: -37px;
+    z-index: $zindex-sticky;
+    @include media-breakpoint-up(xl) {
+    }
+}
+
+//--------------------------------------------------------------------------//
+// Icon Navigation 
+//--------------------------------------------------------------------------//
+
+.icon-nav {
+    border-radius: $border-radius;
+    [class*="col-"] {
+        border-bottom: 1px solid $accent2;
+        &:nth-of-type(1) {
+            .btn-icon-nav {
+                border-radius: $border-radius $border-radius 0 0;
+            }
+        }
+        &:last-of-type {
+            border-bottom: 0;
+            .btn-icon-nav {
+                border-radius: 0 0 $border-radius $border-radius;
+            }
+        }
+        .nav-items-3 & {
+            background: red !important;
+        }
+    }
+    @include media-breakpoint-up(sm) {
+        [class*="col-"] {
+            border-bottom: 0;
+            &:nth-of-type(1) {
+                border-right: 1px solid $accent2;
+                border-bottom: 1px solid $accent2;
+                border-top-left-radius: $border-radius;
+                .btn-icon-nav {
+                    border-radius: $border-radius 0 0 0;
+                }
+            }
+            &:nth-of-type(2) {
+                border-bottom: 1px solid $accent2;
+                .btn-icon-nav {
+                    border-radius: 0 $border-radius 0 0;
+                }
+            }
+            
+            &:nth-of-type(3) {
+                border-right: 1px solid $accent2;
+                .btn-icon-nav {
+                    border-radius: 0 0 0 $border-radius;
+                }
+            }
+            &:last-of-type {
+                border-radius: 0 $border-radius;
+                .btn-icon-nav {
+                    border-radius: 0 0 $border-radius 0;
+                }
+            }
+        }
+    }
+    
+    @include media-breakpoint-up(md) {
+        [class*="col-"] {
+            border-bottom: 0;
+            &:nth-of-type(1) {
+                border-right: 1px solid $accent2;
+                border-bottom: 0;
+                .btn-icon-nav {
+                    border-radius: $border-radius 0 0 $border-radius;
+                }
+            }
+            &:nth-of-type(2) {
+                border-right: 1px solid $accent2;
+                border-bottom: 0;
+                .btn-icon-nav {
+                    border-radius: 0;
+                }
+            }
+            
+            &:nth-of-type(3) {
+                border-right: 1px solid $accent2;
+                .btn-icon-nav {
+                    border-radius: 0;
+                }
+            }
+            &:last-of-type {
+                border-radius: 0 $border-radius;
+                border-right: 0;
+                .btn-icon-nav {
+                    border-radius: 0 $border-radius $border-radius 0;
+                }
+            }
+        }
+    }
+}
+
+.icon-nav-centered {
+    h1, p {
+        text-align: center;
+    }
+    .icon-nav-additional-button.nav-items-2,
+    .icon-nav-additional-button.nav-items-3,
+    .icon-nav-additional-button.nav-items-4 {
+        margin-left: 0;
+        text-align: center !important;
+    }
+}
+
+// override default column layout if only 3 items present
+.nav-items-3 {
+    @include media-breakpoint-up(sm) {
+        [class*="col-"] {
+            &:nth-of-type(1) {
+                
+                border-bottom: 0;
+                .btn-icon-nav {
+                    border-radius: $border-radius 0 0 $border-radius;
+                }
+            }
+            &:nth-of-type(2) {
+                
+                border-bottom: 0;
+                border-right: 1px solid $accent2;
+                .btn-icon-nav {
+                    border-radius: 0;
+                }
+            }
+            &:last-of-type {
+                border-radius: 0 $border-radius;
+                border-right: 0;
+                .btn-icon-nav {
+                    border-radius: 0 $border-radius $border-radius 0;
+                }
+            }
+        }
+        .col-sm-6 {
+            flex: 0 0 33%;
+            max-width: 33%;
+        }
+    }
+    @include media-breakpoint-up(md) {
+        .col-sm-6 {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+        
+    }
+}
+
+.nav-items-2 {
+    @include media-breakpoint-up(sm) {
+        [class*="col-"] {
+            &:nth-of-type(1) {
+                
+                border-bottom: 0;
+                .btn-icon-nav {
+                    border-radius: $border-radius 0 0 $border-radius;
+                }
+            }
+            &:nth-of-type(2) {
+                
+                border-bottom: 0;
+                border-right: 1px solid $accent2;
+                .btn-icon-nav {
+                    border-radius: 0;
+                }
+            }
+            &:last-of-type {
+                border-bottom: 0;
+                border-radius: 0 $border-radius $border-radius 0;
+                border-right: 0;
+                .btn-icon-nav {
+                    border-radius: 0 $border-radius $border-radius 0;
+                }
+            }
+        }
+    }
+}
+
+
+//----------------------------------------------------------------------------//
+//  PAGE NAVIGATION BAR
+//----------------------------------------------------------------------------//
+.page-nav {
+    // Don't display default dropdown arrow icon
+    .dropdown-toggle::after {
+        display: none;
+    }
+}
+
+.page-nav-item {
+    border-top: 1px solid $border-color;
+    padding: map-get($spacers, 2) map-get($spacers, 3);
+    a {
+        font-weight: $font-weight-bold;
+        white-space: nowrap;
+        &:hover {
+            color: $primary;
+            text-decoration: underline;
+        }
+        &.active {
+            text-decoration: underline;
+            pointer-events: none;
+        }
+    }
+    &:first-of-type {
+        border-top: 0;
+    }
+    .dropdown-item a {
+        &:hover {
+            text-decoration: none;
+        }
+        &:active {
+            color: $dropdown-link-active-color;
+        }
+    }
+    @include media-breakpoint-up(md) {
+        border-top: 0;
+        padding: 0 map-get($spacers, 3)
+        // a {
+        //     padding: 0 map-get($spacers, 3);
+        // }
+    }
+}

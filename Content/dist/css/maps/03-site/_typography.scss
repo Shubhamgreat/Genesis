@@ -1,0 +1,72 @@
+$font-sizes: (
+    12: ( min: 12, max: 12 ),
+    13: ( min: 13, max: 13 ),
+    14: ( min: 14, max: 14 ), 
+    16: ( min: 14, max: 16 ), 
+    18: ( min: 16, max: 18 ), 
+    20: ( min: 18, max: 20 ), 
+    22: ( min: 20, max: 22 ), 
+    22b: ( min: 18, max: 22 ), 
+    24: ( min: 22, max: 24 ), 
+    29: ( min: 24, max: 29 ),
+    32: ( min: 28, max: 32 ),
+    36: ( min: 32, max: 36 ),
+    56: ( min: 42, max: 56 ),
+);
+
+@each $size, $value in $font-sizes {
+    .text-#{$size} {
+        @include r-font-size(map-get(map-get($font-sizes, $size), min), map-get(map-get($font-sizes, $size), max));
+    }
+}
+
+.overline {
+    color: $primary;
+    display: block;
+    font-weight: $font-weight-bold;
+    font-size: r-font-size(18,20);
+    margin-bottom: 0;
+}
+
+.general-editor {
+    ul{
+        list-style: none;
+    }
+    ul li:before {
+        content:"\2022";
+        color:$secondary;
+        display:inline-block;
+        width:1em;
+        margin-left:-1em;
+    }
+}
+
+.banner-text {
+    @include r-font-size(120, 225);
+    font-weight: $font-weight-bold;
+    line-height: 1;
+    color: $white;
+    text-shadow: 0 3px 30px rgb(darken($accent2, 13%),1)
+}
+
+.deco-circle-quote {
+    background: lighten($secondary, 40%);
+    border-radius: 50%;
+    color: $secondary;
+    font-family: "Inter", sans-serif;
+    font-size: calcRem(49);
+    font-weight: $font-weight-bold;
+    height: calcRem(40);
+    line-height: 1;
+    overflow: hidden;
+    text-align: center;
+    width: calcRem(40);
+    span {
+        display: block;
+        padding-top: calcRem(5);
+    }
+}
+
+.font-light {
+    font-weight: $font-weight-light;
+}

@@ -1,0 +1,12 @@
+.breadcrumbs {
+    color: red;
+}
+
+.breadcrumb-item {
+    a {
+        color: $primary-master !important;
+        &:hover {
+            color: $primary-master !important;
+        }
+    }
+}

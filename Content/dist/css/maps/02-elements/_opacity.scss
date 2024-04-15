@@ -1,0 +1,15 @@
+@each $prop, $value in $opacity {
+    .o-#{$prop} { opacity: $value; }
+
+    @if $enable-responsive-opacity-classes == true {
+        @each $breakpoint in map-keys($grid-breakpoints) {
+            @if $breakpoint != xs {
+                @include media-breakpoint-up($breakpoint) {
+                    .o-#{$breakpoint}-#{$prop} { 
+                        opacity: $value;
+                    } 
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.navbar-toggler {
+    height: calcRem(45);
+    width: calcRem(45);
+    // color: $primary !important;
+    border-color: $gray-100 !important;
+    background-color: $gray-100;
+    padding: 0;
+    .navbar-toggler-icon {
+        background: url(/Content/dist/images/icons/bars-regular.svg) no-repeat center;
+    }
+    &[aria-expanded="true"] {
+        .navbar-toggler-icon {
+            background: url(/Content/dist/images/icons/times-light.svg) no-repeat center;
+        }
+    }
+}

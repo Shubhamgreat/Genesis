@@ -1,0 +1,29 @@
+@each $element, $sizes in $text-styles {
+    @if $element == "h1" or $element == "h2" or $element == "h3" or $element == "h4" or $element == "h5" or $element == "h6" {
+        #{$element}, .#{$element} {
+            line-height: $headings-line-height; //Variable is located in 01-bootstrap-overrides/_variables.scss
+            letter-spacing: $letter-spacing-heading;
+            word-spacing: $word-spacing-heading;
+        }
+    } @else {
+        #{$element}, .#{$element} {
+            line-height: $line-height-base; //Variable is located in 01-bootstrap-overrides/_variables.scss
+            letter-spacing: $letter-spacing-body;
+            word-spacing: $word-spacing-body;
+        }
+    }
+    
+    @if $enable-responsive-text-size == true {
+        @each $variant, $variant-value in $text-sizes {
+            @if $variant != "base" {
+                .#{$element}-#{$variant} {
+                    @include r-font-size(map-get(map-get($text-styles, $element), min) * $variant-value, map-get(map-get($text-styles, $element), max) * $variant-value);
+                }
+            } @else {
+                #{$element}, .#{$element} {
+                    @include r-font-size(map-get(map-get($text-styles, $element), min) * $variant-value, map-get(map-get($text-styles, $element), max) * $variant-value);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+﻿//----------------------------------------------------------------------------//
+//  TYPOGRAPHY
+//----------------------------------------------------------------------------//
+.text-shadow {
+    text-shadow: 0 3px 30px rgba(0,0,0,.4);
+}
+
+//----------------------------------------------------------------------------//
+//  WIDTH
+//----------------------------------------------------------------------------//
+@each $breakpoint, $value in $grid-breakpoints {
+    @include media-breakpoint-up($breakpoint) {
+        .w-#{$breakpoint}-auto {
+            width: auto !important;
+        }
+    }
+} 
+
+//----------------------------------------------------------------------------//
+//  Z-INDEX
+//----------------------------------------------------------------------------//
+.z-1 {
+    z-index: 1;
+}
+.z-2 {
+    z-index: 2;
+}
+
+
+//----------------------------------------------------------------------------//
+//  FONT FAMILY
+//----------------------------------------------------------------------------//
+$font-family-inter:     "Inter", sans-serif;
+
+.font-inter {
+    font-family: $font-family-inter;
+}
+
+.font-os {
+    font-family: $font-family-sans-serif;
+}
+
+
+//----------------------------------------------------------------------------//
+//  COLOR
+//----------------------------------------------------------------------------//
+@include media-breakpoint-up(xl) {
+    .bg-xl-white {
+        background-color: $white !important;
+    }
+    
+}
+
+//----------------------------------------------------------------------------//
+//  LINE HEIGHT
+//----------------------------------------------------------------------------//
+.lh-sm {
+    line-height: 1.1;
+}
+
+.lh-md {
+    line-height: 1.4;
+}
+
+
+
+//----------------------------------------------------------------------------//
+//  BORDER RADIUS
+//----------------------------------------------------------------------------//
+.rounded-top {
+    border-radius: $border-radius $border-radius 0 0;
+}
+.rounded-bottom {
+    border-radius: 0 0 $border-radius $border-radius;
+}
+
+@include media-breakpoint-up(lg) {
+    .rounded-top-lg {
+        border-radius: $border-radius $border-radius 0 0;
+    }
+    .rounded-lg {
+        border-radius: $border-radius;
+    }
+    
+}
+
+.rounded-small {
+    border-radius: $border-radius-sm;
+}
+
+//----------------------------------------------------------------------------//
+//  IMAGES
+//----------------------------------------------------------------------------//
+.headshot {
+    height: calcRem(175);
+    object-fit: cover;
+    @include media-breakpoint-up(sm) {
+        height: calcRem(250);
+    }
+    @include media-breakpoint-up(md) {
+        height: auto;
+    }
+}
+
+// MAX WIDTH
+.mw-800 {
+    max-width: calcRem(800);
+}

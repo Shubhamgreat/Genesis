@@ -1,0 +1,101 @@
+
+//--------------------------------------------------------------------//
+//  01. INVERT TEXT COLOR
+//  02. RESPONSIVE COLOR CLASSES
+//  03. RESPONSIVE BACKGROUND COLOR CLASSES
+//--------------------------------------------------------------------//
+
+//--------------------------------------------------------------------//
+//  01. INVERT TEXT COLOR
+//--------------------------------------------------------------------//
+.text-invert {
+    color: $body-color-inverted;
+    h1, .h1,
+    h2, .h2,
+    h3, .h3,
+    h4, .h4,
+    h5, .h5,
+    h6, .h6 {
+        color: $body-color-inverted;
+    }
+    a {
+        color: $link-color-inverted;
+        &:hover {
+            color: $link-hover-color-inverted;
+        }
+    }
+}
+//--------------------------------------------------------------------//
+//      a.  Responsive Inverted Color Classes
+//          •   Usage: <div class="c-invert-{breakpoint}">...</div>
+//--------------------------------------------------------------------//
+@if $enable-responsive-inverted-color-classes == true {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+        @if $breakpoint != xs {
+            .text-invert-#{$breakpoint} {
+                @include media-breakpoint-up($breakpoint) {
+                    color: $body-color-inverted;
+                }
+            }
+        }
+    };
+}
+//--------------------------------------------------------------------//
+//  02. RESPONSIVE COLOR CLASSES
+//
+//      • Usage: <div class="c-{breakpoint}-{color}`">...</div>
+//--------------------------------------------------------------------//
+@if $enable-responsive-color-classes == true {
+    @each $color, $value in $theme-colors {
+        @each $breakpoint in map-keys($grid-breakpoints) {
+            @if $breakpoint != xs {
+                .text-#{$breakpoint}-#{$color} {
+                    @include media-breakpoint-up($breakpoint) {
+                        color: $value;
+                    }
+                }
+            }
+        }
+    };
+}
+//--------------------------------------------------------------------//
+//  03. RESPONSIVE BACKGROUND COLOR CLASSES
+//
+//  Usage: <div class="c-invert-{breakpoint]">...</div>
+//--------------------------------------------------------------------//
+@if $enable-responsive-bg-color-classes == true {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+        @if $breakpoint != xs {
+            @each $color, $value in $theme-colors {
+                .bg-#{$breakpoint}-#{$color} {
+                    @include media-breakpoint-up($breakpoint) {
+                        background-color: $value !important;
+                    }
+                }
+                .bg-#{$breakpoint}-transparent {
+                    @include media-breakpoint-up($breakpoint) {
+                        background-color: transparent !important;
+                    }
+                }
+            }
+            @each $color, $value in $grays {
+                .bg-#{$breakpoint}-gray-#{$color} {
+                    @include media-breakpoint-up($breakpoint) {
+                        background-color: $value !important;
+                    }
+                }
+            }
+        }
+    };
+}
+//--------------------------------------------------------------------//
+//  CREATE `bg-` CLASSES FOR GRAYS
+//--------------------------------------------------------------------//
+@each $color, $value in $grays {
+    .bg-gray-#{$color} {
+        background-color: $value !important;
+    }
+    .text-gray-#{$color} {
+        color: $value !important;
+    }
+}

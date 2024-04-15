@@ -1,0 +1,117 @@
+// // Variables
+// //
+// // Variables should follow the `$component-state-property-size` formula for
+// // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// // Color system
+
+$white:    #fff !default;
+$gray-100: #f5f5f5 !default;
+$gray-200: #e9ecef !default;
+// $gray-300: #dee2e6 !default;
+// $gray-400: #ced4da !default;
+// $gray-500: #adb5bd !default;
+$gray-500: #6c757d !default;
+$gray-700: #495057 !default;
+// $gray-800: #343a40 !default;
+// $gray-900: #212529 !default;
+$black:    #122f45 !default;
+
+// $grays: () !default;
+// $grays: map-merge(
+//   (
+//     "100": $gray-100,
+//     "200": $gray-200,
+//     "300": $gray-300,
+//     "400": $gray-400,
+//     "500": $gray-500,
+//     "600": $gray-600,
+//     "700": $gray-700,
+//     "800": $gray-800,
+//     "900": $gray-900
+//   ),
+//   $grays
+// );
+
+$blue:    #0F6AC4;
+$blue-master: #0F6AC4;
+// $indigo:  #6610f2 !default;
+// $purple:  #6f42c1 !default;
+// $pink:    #e83e8c !default;
+// $red:     #dc3545 !default;
+$orange:    #f8601b !default;
+// $yellow:  #ffc107 !default;
+// $green:   #28a745 !default;
+// $teal:    #20c997 !default;
+// $cyan:    #17a2b8 !default;
+
+$brand-purple: #534588;
+$brand-blue: #0075c9;
+$brand-purple-dark: #463A72;
+$brand-purple-extralight: #F4F1FF;
+$brand-purple-light: #665E83;
+
+$colors: () !default;
+$colors: map-merge(
+  (
+//     "blue":       $blue,
+    "bluemaster":       $blue-master,
+//     "indigo":     $indigo,
+//     "purple":     $purple,
+//     "pink":       $pink,
+//     "red":        $red,
+    "orange":     $orange,
+//     "yellow":     $yellow,
+//     "green":      $green,
+//     "teal":       $teal,
+//     "cyan":       $cyan,
+//     "white":      $white,
+//     "gray":       $gray-600,
+//     "gray-dark":  $gray-800,
+    // New
+    "brand-purple": $brand-purple,
+    "brand-blue":   $brand-blue,
+    "light-purple": $brand-purple-dark,
+    "misty-purple": $brand-purple-extralight,
+    "steel-purple": $brand-purple-light
+  ),
+  $colors
+);
+
+$primary:         $brand-purple;
+$primary-master:  $brand-purple;
+
+$secondary:       $brand-blue;
+// $success:         $green !default;
+// $info:            $cyan !default;
+// $warning:         $yellow !default;
+// $danger:          $red !default;
+// $light:           $gray-100 !default;
+$dark:            $black !default;
+$accent1:         $brand-purple-dark;
+$accent1-master:  $brand-purple-dark; 
+$accent2:         $brand-purple-extralight;
+$accent3:         $brand-purple-light;
+
+
+
+ $theme-colors:   () !default;
+ $theme-colors:   map-merge(
+   (
+//     "primary":    $primary,
+//     "secondary":  $secondary,
+//     "success":    $success,
+//     "info":       $info,
+//     "warning":    $warning,
+//     "danger":     $danger,
+//     "light":      $light,
+//     "dark":       $dark
+        "primary-master" : $primary-master,
+        "accent1-master":  $accent1-master,
+        "accent1":  $accent1,
+        "accent2": $accent2,
+        "accent3": $accent3 
+   ),
+   $theme-colors
+ );
+

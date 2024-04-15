@@ -1,0 +1,43 @@
+// // Position Location
+
+@if $enable-responsive-border-classes == true {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+        @if $breakpoint != xs {
+            @include media-breakpoint-up($breakpoint) {
+                .border-#{$breakpoint}         { border: $border-width solid $border-color; } // Add
+                .border-#{$breakpoint}-0        { border: 0 !important; } // Subtract
+                
+                @each $side in $element-sides {
+                    .border-#{$breakpoint}-#{$side}     { border-#{$side}: $border-width solid $border-color; } // Add
+                    .border-#{$breakpoint}-#{$side}-0    { border-#{$side}: 0 !important; } // Subtract
+                }
+            }
+        }
+    };
+};
+
+@if $enable-responsive-border-radius-classes == true {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+        @if $breakpoint != xs {
+            @include media-breakpoint-up($breakpoint) {
+                // Add
+                .rounded-#{$breakpoint} {border-radius: $border-radius !important;}
+                .rounded-#{$breakpoint}-top {border-top-left-radius: $border-radius !important; border-top-right-radius: $border-radius !important;}
+                .rounded-#{$breakpoint}-right {border-top-right-radius: $border-radius !important; border-bottom-right-radius: $border-radius !important;}
+                .rounded-#{$breakpoint}-bottom {border-bottom-right-radius: $border-radius !important; border-bottom-left-radius: $border-radius !important;}
+                .rounded-#{$breakpoint}-left {border-top-left-radius: $border-radius !important; border-bottom-left-radius: $border-radius !important;}
+                .rounded-#{$breakpoint}-circle {border-radius: 50% !important;}
+
+                // Subtract
+                .rounded-#{$breakpoint}-0 {border-radius: 0 !important;}
+                .rounded-#{$breakpoint}-top-0 {border-top-left-radius: 0 !important; border-top-right-radius: 0 !important;}
+                .rounded-#{$breakpoint}-right-0 {border-top-right-radius: 0 !important; border-bottom-right-radius: 0 !important;}
+                .rounded-#{$breakpoint}-bottom-0 {border-bottom-right-radius: 0 !important; border-bottom-left-radius: 0 !important;}
+                .rounded-#{$breakpoint}-left-0 {border-top-left-radius: 0 !important; border-bottom-left-radius: 0 !important;}
+            }
+        }
+    };
+};
+
+
+

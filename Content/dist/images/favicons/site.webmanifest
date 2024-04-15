@@ -1,0 +1,734 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    
+    <!--****-->
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-575PRQ');</script>
+    <!-- End Google Tag Manager -->
+    
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/Content/dist/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Content/dist/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Content/dist/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/Content/dist/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/Content/dist/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <link rel="stylesheet" href="/Content/dist/css/theme-primary.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-575PRQ"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <main>
+        <div class="body-content">
+
+            
+<header>
+    
+<nav class="bg-primary-master utility-nav navbar navbar-expand-lg bg-primary text-invert" aria-label="Utility">
+    <div class="container justify-content-end">
+        
+        <div class="row align-items-center w-100">
+            
+            <div class="col-6 col-xl-5 offset-xl-2 text-xl-right px-0">
+                <a class="" href="/covid-19" data-gtm-id="Utility Nav" data-gtm-value="COVID-19 Information">
+                    COVID-19 Information 
+                    <i class="fas fa-chevron-right o-5 ml-1"></i>
+                </a>
+
+            </div>
+            
+            <div class="col-6 col-xl-5">
+                <div class="d-flex align-items-center justify-content-end">
+                    <div class="mr-4">
+<i class="fas fa-envelope"></i>                        <a class="px-1" href="/our-plans/individual-and-family-plans/member-resources/online-quote-tool" data-gtm-id="Utility Nav" data-gtm-value="Get a Quote">Get a Quote</a>
+
+                    </div>
+                    <div class="mr-4 d-none d-xl-block">
+<i class="fas fa-user-alt"></i>                        <a class="px-1" href="/our-plans/find-a-doctor" data-gtm-id="Utility Nav" data-gtm-value="Find a Doctor">Find a Doctor</a>
+                    </div>
+                    <div class="mr-4 d-none d-xl-block">
+                        <a class="" href="/our-plans/contact-us" data-gtm-id="Utility Nav" data-gtm-value="Contact Us">Contact Us</a>
+
+                    </div>
+                    <div class="text-18 mr-1 d-none d-xl-block">
+                            <a class="px-1" href="https://www.instagram.com/ChorusCommunityHealthPlans" data-gtm-id="Utility Nav" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                    </div>
+                    <div class="text-18 d-none d-xl-block">
+                            <a class="pl-1" href="https://www.facebook.com/ChorusCommunityHealthPlans" data-gtm-id="Utility Nav" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+</nav>
+
+    
+
+    <div class="main-nav position-sticky js-main-nav container-fluid px-0 font-weight-bold">
+        <div class="container px-0 px-xl-2">
+            <nav class="navbar navbar-expand-xl navbar-light px-0 px-xl-2">
+                
+                
+                <a class="navbar-brand ml-3 ml-xl-0" href="/" title="Go to Homepage">
+                    <img src="/Content/dist/images/logos/logo-chorus.svg" alt="Chorus Logo"  >
+                </a>
+
+                
+                <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                
+                <div class="collapse navbar-collapse main-nav-container px-3 px-xl-0 justify-content-end ox-mobile-hidden oy-mobile-scroll js-menu-height" id="navbarSupportedContent">
+                    
+                    
+                    <div class="d-xl-none mobile-search px-3 py-3 mt-3">
+<form action="/Search/SearchIndex" method="get">                            <div class="position-relative global-search">
+                                <input class="form-control mr-sm-2 text-14 px-3" name="searchtext" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-link position-absolute right-1 position-y-center px-2 py-0" type="submit">
+                                    <i class="fas fa-search"></i><span class="sr-only">Search</span>
+                                </button>
+                            </div>
+</form>                        </div> 
+
+                    <div class="ox-mobile-hidden oy-mobile-scroll">
+                        <ul class="navbar-nav font-weight-bold px-3 px-xl-3">
+
+                                <li class='main-nav-item primary js-main-nav-item position-relative '>
+                                        <div class="child-nav-toggle js-child-nav-toggle d-flex align-items-center" tabindex="0">
+                                            
+                                                <div class="mr-2 d-xl-none">
+                                                    <i class="far fa-plus js-mobile-nav-icon"></i>
+                                                    <i class="far fa-minus js-mobile-nav-icon d-none"></i>
+                                                </div>
+                                                <span>Our Plans</span>
+                                                
+                                            
+                                        </div>
+                                        <div class="child-nav js-child-nav">
+                                            <div class="container px-0 px-xl-4 pt-xl-3 pb-xl-4">
+                                                <div class="row flex-xl-nowrap">
+                                                            <div class="col-xl px-0 px-xl-2">
+                                                                <div class="main-nav-item child-subnav-toggle js-child-subnav-toggle secondary d-flex align-items-center">
+                                                                    <div class="mr-2 d-xl-none">
+                                                                        <i class="far fa-plus js-mobile-nav-icon"></i>
+                                                                        <i class="far fa-minus js-mobile-nav-icon d-none"></i>
+                                                                    </div>
+                                                                    <span class="text-14 ">Individual &amp; Family Plans</span>
+                                                                </div>
+                                                                <ul class="child-subnav js-child-subnav list-unstyled">
+                                                                        <li>
+                                                                            <a class="text-14" href="/our-plans/individual-and-family-plans" target="_self">
+                                                                                Plan Overview
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="text-14" href="/our-plans/individual-and-family-plans/2023-plan-options" target="_self">
+                                                                                2023 Plan Options
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="text-14" href="/our-plans/individual-and-family-plans/2024-plan-options" target="_self">
+                                                                                2024 Plan Options
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="text-14" href="/our-plans/individual-and-family-plans/2024-dental-plans" target="_self">
+                                                                                Dental Plans
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="text-14" href="/our-plans/individual-and-family-plans/member-resources" target="_self">
+                                                                                Member Resources
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="text-14" href="/our-plans/individual-and-family-plans/en-espanol" target="_self">
+                                                                                En Espanol
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="text-14" href="https://cxp.pdhi.com/Portal/Member/7e12e081-7bb9-4364-960c-08d9a786ab5d" target="_self">
+                                                                                Wellness Center
+
+                                                                            </a>
+                                                                                    <i class="fas fa-lock ml-2 text-gray-400 text-14" title="Login Required"></i>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="text-14" href="https://secure.togetherforyourhealth.com/Login/login.aspx?CLIENT=000001&amp;ID=000002&amp;DIV=0001" target="_self">
+                                                                                CCHP Connect
+
+                                                                            </a>
+                                                                                    <i class="fas fa-lock ml-2 text-gray-400 text-14" title="Login Required"></i>
+                                                                        </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-xl px-0 px-xl-2">
+                                                                <div class="main-nav-item child-subnav-toggle js-child-subnav-toggle secondary d-flex align-items-center">
+                                                                    <div class="mr-2 d-xl-none">
+                                                                        <i class="far fa-plus js-mobile-nav-icon"></i>
+                                                                        <i class="far fa-minus js-mobile-nav-icon d-none"></i>
+                                                                    </div>
+                                                                    <span class="text-14 ">Medicaid Plans</span>
+                                                                </div>
+                                                                <ul class="child-subnav js-child-subnav list-unstyled">
+                                                                        <li>
+                                                                            <a class="text-14" href="/our-plans/medicaid" target="_self">
+                                                                                Medicaid Overview
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="text-14" href="/our-plans/medicaid/eligibility" target="_self">
+                                                                                Eligibility
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="text-14" href="/our-plans/medicaid/benefit-plans" target="_self">
+                                                                                Benefit Plans
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="text-14" href="/our-plans/medicaid/medicaid-resources" target="_self">
+                                                                                Medicaid Resources
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="text-14" href="https://cxp.pdhi.com/Portal/Member/7e12e081-7bb9-4364-960c-08d9a786ab5d" target="_self">
+                                                                                Wellness Center
+
+                                                                            </a>
+                                                                                    <i class="fas fa-lock ml-2 text-gray-400 text-14" title="Login Required"></i>
+                                                                        </li>
+                                                                </ul>
+                                                            </div>
+                                                    
+                                                        <div class="col-xl px-0 px-2 pt-4 pt-xl-0 ">
+                                                                    <a class="btn btn-block btn-accent2 btn-main-nav py-2" href="/our-plans/find-a-doctor" target="_self" 
+                                                                    data-toggle='childSubNav-FindaDoctor' role="button" 
+                                                                    id='childSubNav-FindaDoctor'>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <span class="btn-main-nav__icon text-22 mr-2"><i class="fad fa-user-md"></i></span>
+                                                                            Find a Doctor 
+                                                                        </div>
+                                                                    </a>
+                                                                    <a class="btn btn-block btn-accent2 btn-main-nav py-2" href="/our-plans/prescription-coverage" target="_self" 
+                                                                    data-toggle='childSubNav-PrescriptionCoverage' role="button" 
+                                                                    id='childSubNav-PrescriptionCoverage'>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <span class="btn-main-nav__icon text-22 mr-2"><i class="fas fa-pills"></i></span>
+                                                                            Prescription Coverage 
+                                                                        </div>
+                                                                    </a>
+                                                                    <a class="btn btn-block btn-accent2 btn-main-nav py-2" href="/our-plans/health-programs" target="_self" 
+                                                                    data-toggle='childSubNav-HealthPrograms' role="button" 
+                                                                    id='childSubNav-HealthPrograms'>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <span class="btn-main-nav__icon text-22 mr-2"><i class="fas fa-heartbeat"></i></span>
+                                                                            Health Programs 
+                                                                        </div>
+                                                                    </a>
+                                                                    <a class="btn btn-block btn-accent2 btn-main-nav py-2" href="/our-plans/replacement-membership-id" target="_self" 
+                                                                    data-toggle='childSubNav-ReplacementMembershipID' role="button" 
+                                                                    id='childSubNav-ReplacementMembershipID'>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <span class="btn-main-nav__icon text-22 mr-2"><i class="fas fa-address-card"></i></span>
+                                                                            Replacement Membership ID 
+                                                                        </div>
+                                                                    </a>
+                                                                    <a class="btn btn-block btn-accent2 btn-main-nav py-2" href="/events" target="_self" 
+                                                                    data-toggle='childSubNav-MemberEvents' role="button" 
+                                                                    id='childSubNav-MemberEvents'>
+                                                                        <div class="d-flex align-items-center">
+                                                                            <span class="btn-main-nav__icon text-22 mr-2"><i class="far fa-calendar-alt"></i></span>
+                                                                            Member Events 
+                                                                        </div>
+                                                                    </a>
+                                                        </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class='main-nav-item primary js-main-nav-item position-relative '>
+                                        <div class="child-nav-toggle js-child-nav-toggle d-flex align-items-center" tabindex="0">
+                                            
+                                                <div class="mr-2 d-xl-none">
+                                                    <i class="far fa-plus js-mobile-nav-icon"></i>
+                                                    <i class="far fa-minus js-mobile-nav-icon d-none"></i>
+                                                </div>
+                                                <span>Care4Kids</span>
+                                                
+                                            
+                                        </div>
+                                        <div class="child-nav js-child-nav">
+                                            <div class="container px-0 px-xl-4 pt-xl-3 pb-xl-4">
+                                                <div class="row flex-xl-nowrap">
+                                                    
+                                                        <div class="col-xl px-0 px-2 pt-4 pt-xl-0 ">
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/care4kids/about-care4kids" target="_self" data-toggle='childSubNav-AboutCare4Kids'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-AboutCare4Kids'>
+                                                                            About Care4Kids
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/care4kids/health-screen-assessment" target="_self" data-toggle='childSubNav-HealthScreenAssessment'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-HealthScreenAssessment'>
+                                                                            Health Screen Assessment
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/care4kids/contact-c4k-team" target="_self" data-toggle='childSubNav-ContactC4KTeam'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-ContactC4KTeam'>
+                                                                            Contact C4K Team
+                                                                        </a>
+                                                                    </div>
+                                                        </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class='main-nav-item primary js-main-nav-item position-relative '>
+                                        <div class="child-nav-toggle js-child-nav-toggle d-flex align-items-center" tabindex="0">
+                                            
+                                                <div class="mr-2 d-xl-none">
+                                                    <i class="far fa-plus js-mobile-nav-icon"></i>
+                                                    <i class="far fa-minus js-mobile-nav-icon d-none"></i>
+                                                </div>
+                                                <span>For Providers</span>
+                                                
+                                            
+                                        </div>
+                                        <div class="child-nav js-child-nav">
+                                            <div class="container px-0 px-xl-4 pt-xl-3 pb-xl-4">
+                                                <div class="row flex-xl-nowrap">
+                                                    
+                                                        <div class="col-xl px-0 px-2 pt-4 pt-xl-0 ">
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-providers/provider-overview" target="_self" data-toggle='childSubNav-ProviderOverview'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-ProviderOverview'>
+                                                                            Provider Overview
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/our-plans/find-a-doctor" target="_self" data-toggle='childSubNav-ProviderDirectory'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-ProviderDirectory'>
+                                                                            Provider Directory
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-providers/current-providers" target="_self" data-toggle='childSubNav-CurrentProviders'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-CurrentProviders'>
+                                                                            Current Providers
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-providers/clinical-and-preventative" target="_self" data-toggle='childSubNav-Clinical&amp;Preventative'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-Clinical&amp;Preventative'>
+                                                                            Clinical &amp; Preventative
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-providers/become-a-provider" target="_self" data-toggle='childSubNav-BecomeaProvider'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-BecomeaProvider'>
+                                                                            Become a Provider
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-providers/provider-forms" target="_self" data-toggle='childSubNav-ProviderForms'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-ProviderForms'>
+                                                                            Provider Forms
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-providers/provider-overview" target="_self" data-toggle='childSubNav-ProviderPortals'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-ProviderPortals'>
+                                                                            Provider Portals
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-providers/provider-resources" target="_self" data-toggle='childSubNav-ProviderResources'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-ProviderResources'>
+                                                                            Provider Resources
+                                                                        </a>
+                                                                    </div>
+                                                        </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class='main-nav-item primary js-main-nav-item position-relative '>
+                                        <div class="child-nav-toggle js-child-nav-toggle d-flex align-items-center" tabindex="0">
+                                            
+                                                <div class="mr-2 d-xl-none">
+                                                    <i class="far fa-plus js-mobile-nav-icon"></i>
+                                                    <i class="far fa-minus js-mobile-nav-icon d-none"></i>
+                                                </div>
+                                                <span>For Brokers</span>
+                                                
+                                            
+                                        </div>
+                                        <div class="child-nav js-child-nav">
+                                            <div class="container px-0 px-xl-4 pt-xl-3 pb-xl-4">
+                                                <div class="row flex-xl-nowrap">
+                                                    
+                                                        <div class="col-xl px-0 px-2 pt-4 pt-xl-0 ">
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-brokers/broker-overview" target="_self" data-toggle='childSubNav-BrokerOverview'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-BrokerOverview'>
+                                                                            Broker Overview
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-brokers/become-appointed" target="_self" data-toggle='childSubNav-BecomeAppointed'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-BecomeAppointed'>
+                                                                            Become Appointed
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-brokers/broker-forms" target="_self" data-toggle='childSubNav-BrokerForms'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-BrokerForms'>
+                                                                            Broker Forms
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="https://chorushealthplans.org/our-plans/prescription-coverage" target="_self" data-toggle='childSubNav-PrescriptionCoverage'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-PrescriptionCoverage'>
+                                                                            Prescription Coverage
+                                                                        </a>
+                                                                            <i class="fas fa-external-link-alt ml-2 text-gray-400 text-14" title="External Link"></i>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/getmedia/bde6d516-c22a-4cbe-9d9d-7a1570e121a6/HP_COR_2024-Broker-Guide_1031-WEB.pdf" target="_self" data-toggle='childSubNav-BrokerGuide'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-BrokerGuide'>
+                                                                            Broker Guide
+                                                                        </a>
+                                                                            <i class="fas fa-external-link-alt ml-2 text-gray-400 text-14" title="External Link"></i>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-brokers/together-plans" target="_self" data-toggle='childSubNav-IndividualandFamilyPlans'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-IndividualandFamilyPlans'>
+                                                                            Individual and Family Plans
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/for-brokers/broker-support-team" target="_self" data-toggle='childSubNav-BrokerSupportTeam'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-BrokerSupportTeam'>
+                                                                            Broker Support Team
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="https://chorushealthplans.jet-insure.com/" target="_self" data-toggle='childSubNav-BrokerPortal'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-BrokerPortal'>
+                                                                            Broker Portal
+                                                                        </a>
+                                                                            <i class="fas fa-lock ml-2 text-gray-400 text-14" title="Login Required"></i>
+                                                                    </div>
+                                                        </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class='main-nav-item primary js-main-nav-item position-relative '>
+                                        <div class="child-nav-toggle js-child-nav-toggle d-flex align-items-center" tabindex="0">
+                                            
+                                                <div class="mr-2 d-xl-none">
+                                                    <i class="far fa-plus js-mobile-nav-icon"></i>
+                                                    <i class="far fa-minus js-mobile-nav-icon d-none"></i>
+                                                </div>
+                                                <span>About CCHP</span>
+                                                
+                                            
+                                        </div>
+                                        <div class="child-nav js-child-nav">
+                                            <div class="container px-0 px-xl-4 pt-xl-3 pb-xl-4">
+                                                <div class="row flex-xl-nowrap">
+                                                    
+                                                        <div class="col-xl px-0 px-2 pt-4 pt-xl-0 ">
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/about-cchp/who-we-are" target="_self" data-toggle='childSubNav-WhoWeAre'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-WhoWeAre'>
+                                                                            Who We Are
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/about-cchp/media-and-news" target="_self" data-toggle='childSubNav-Media&amp;News'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-Media&amp;News'>
+                                                                            Media &amp; News
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/about-cchp/practices-and-prevention" target="_self" data-toggle='childSubNav-Practices/Prevention'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-Practices/Prevention'>
+                                                                            Practices/Prevention
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="main-nav-item d-block d-pseudo-none secondary no-children">
+                                                                        <a class="text-14" href="/about-cchp/careers" target="_self" data-toggle='childSubNav-Careers'
+                                                                           role="button" aria-haspopup="true" aria-expanded="true" id='childSubNav-Careers'>
+                                                                            Careers
+                                                                        </a>
+                                                                    </div>
+                                                        </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                        </ul>
+
+
+
+
+                    </div>
+
+                    <div class="d-none d-xl-flex align-items-center ml-4 ml-xxl-6">
+                        
+                        <div class="dropdown">
+                            <button class="btn btn-link dropdown-toggle user-nav-toggle d-flex align-items-center text-16 px-0 py-0" type="button" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-user-circle text-primary-master mr-1 text-29"></i>
+                                <span class="font-weight-bold">Sign In</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labeledby="userDropdown">
+                                <h6 class="dropdown-header font-weight-normal text-12">Members</h6>
+                                <a class="dropdown-item font-weight-bold" target="_blank" href="https://secure.togetherforyourhealth.com/login/cchpmember.aspx" target="_blank">Individual and Family Plans</a>
+                                <a class="dropdown-item font-weight-bold" target="_blank" href="https://cxp.pdhi.com/Portal/Member/7e12e081-7bb9-4364-960c-08d9a786ab5d">Medicaid Members</a>
+                                <div class="dropdown-divider"></div>
+                                <h6 class="dropdown-header font-weight-normal text-12">Partners</h6>
+                                <a class="dropdown-item font-weight-bold" target="_blank" href="https://chorushealthplans.jet-insure.com/" target="_blank">Brokers</a>
+                            </div>
+                        </div>
+
+                        
+<form action="/Search/SearchIndex" method="get">                            <div class="position-relative global-search ml-4">
+                                <input class="form-control mr-sm-2 text-14 px-3" name="searchtext" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-link my-2 my-sm-0 position-absolute position-y-center right-1 px-2 py-0" type="submit">
+                                    <i class="fas fa-search"></i><span class="sr-only">Search</span>
+                                </button>
+                            </div>
+</form>                        </div>
+
+                    <div class="d-xl-none mt-4">
+                        <div class="mb-3">
+                            <div class="dropdown mb-2">
+                                <button class="btn btn-primary-master btn-block py-3 dropdown-toggle justify-content-between" type="button" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user mr-1 text-18"></i>
+                                    <span>Sign In</span>
+                                </button>
+                                <div class="dropdown-menu w-100" aria-labeledby="userDropdown">
+                                    <h6 class="dropdown-header font-weight-normal text-12">Members</h6>
+                                    <a class="dropdown-item font-weight-bold" href="https://secure.togetherforyourhealth.com/login/cchpmember.aspx">Individual and Family Plans</a>
+                                    <a class="dropdown-item font-weight-bold" href="https://cxp.pdhi.com/Portal/Member/7e12e081-7bb9-4364-960c-08d9a786ab5d">Medicaid Members</a>
+                                    <div class="dropdown-divider"></div>
+                                    <h6 class="dropdown-header font-weight-normal text-12">Partners</h6>
+                                    <a class="dropdown-item font-weight-bold" href="https://chorushealthplans.jet-insure.com/">Brokers</a>
+                                </div>
+                            </div>
+                            
+                            <a href="/our-plans/find-a-doctor" class="btn btn-primary-master btn-block py-3">
+<i class="fas fa-user-alt"></i> Find a Doctor
+                            </a>
+                            <a href="/our-plans/contact-us" class="btn btn-primary-master btn-block py-3">
+                                 Contact Us
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                                <a class="px-2 text-32" href="https://www.instagram.com/ChorusCommunityHealthPlans" data-gtm-id="Utility Nav" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                                            <a class="px-2 text-32" href="https://www.facebook.com/ChorusCommunityHealthPlans" data-gtm-id="Utility Nav" target="_blank">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    
+
+
+
+</header>
+
+            
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel='stylesheet' href='/Content/dist/css/theme-primary.css'>
+
+<div class="container-fluid bg-accent2 py-5">
+    <div class="row">
+        <div class="js-fade col-12 py-4 text-center">
+            <div class="banner-text mb-5 font-inter">404</div>
+            <h1 class="text-29">Page Not Found</h1>
+            <p>The page you are trying to access has either been moved, updated, or deleted.</p>
+        </div>
+    </div>
+</div>
+
+            <footer>
+    <section class="bg-primary-master">
+        <div class="container text-invert px-0 pt-5 pb-2">
+            <div class="row mb-2 mb-md-4">
+                <div class="col-6 text-center">
+                    <picture class="d-inline-block float-md-left mb-3 mb-md-0">
+                        <img class="img-fluid" src="/Content/dist/images/logos/logo-chorus-white.svg" />
+                    </picture>
+                </div>
+                <div class="col-6 text-center">
+                    <picture class="d-inline-block float-md-right">
+                        <img class="img-fluid" src="/getmedia/1a872d5e-4734-43e3-b878-4c22a08e97f0/NCQATransparent.png.aspx?width=100" />
+                    </picture>
+                    
+                </div>
+            </div>
+            <div class="row py-3 text-center text-md-left">
+                <div class="col-md-3 pt-2 pt-md-0 pr-md-4">
+                    <h6 class="mb-2 text-14">Member Resources</h6>
+                    <hr class="border-white o-6 m-0 mb-1"/>
+                    <ul class="list-unstyled mb-0 pb-3 pb-md-0">
+                                <li class=""><a class="" href="/about-cchp/health-care-glossary" data-gtm-id="Footer" data-gtm-value="Healthcare Glossary">Healthcare Glossary</a></li>
+                                <li class=""><a class="" href="/our-plans/find-a-doctor" data-gtm-id="Footer" data-gtm-value="Find A Doctor">Find A Doctor</a></li>
+                                <li class=""><a class="" href="/our-plans/prescription-coverage" data-gtm-id="Footer" data-gtm-value="Prescription Med Coverage">Prescription Med Coverage</a></li>
+                                <li class=""><a class="" href="https://appconnect.childrenscommunityhealthplan.org/" data-gtm-id="Footer" data-gtm-value="App Connect">App Connect</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 pt-2 pt-md-0 pr-md-4">
+                    <h6 class="mb-2 text-14">Company</h6>
+                    <hr class="border-white o-6 m-0 mb-1" />
+                    <ul class="list-unstyled">
+                                <li class=""><a class="" href="/about-cchp/who-we-are" data-gtm-id="Footer" data-gtm-value="About Us">About Us</a></li>
+                                <li class=""><a class="" href="/about-cchp/media-and-news" data-gtm-id="Footer" data-gtm-value="Media &amp; News">Media &amp; News</a></li>
+                                <li class=""><a class="" href="/about-cchp/practices-and-prevention" data-gtm-id="Footer" data-gtm-value="Practices">Practices</a></li>
+                                <li class=""><a class="" href="/our-plans/replacement-membership-id" data-gtm-id="Footer" data-gtm-value="Replacement ID Card">Replacement ID Card</a></li>
+                                <li class=""><a class="" href="/about-cchp/careers" data-gtm-id="Footer" data-gtm-value="Careers">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 pt-2 pt-md-0 pr-md-4">
+                    <h6 class="mb-2 text-14">Individual and Family Plans</h6>
+                    <hr class="border-white o-6 m-0 mb-1" />
+                    <ul class="list-unstyled">
+                        <li class="">PO Box 1997, MS 6280<br />Milwaukee, WI 53201</li>
+                        <li class=""><a class="" href="tel:1-844-201-4672" data-gtm-id="Footer" data-gtm-value="1-844-201-4672">1-844-201-4672</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 pt-2 pt-md-0 pr-md-4">
+                    <h6 class="mb-2">Medicaid</h6>
+                    <hr class="border-white o-6 m-0 mb-1" />
+                    <ul class="list-unstyled mb-0">
+                        <li class="">PO Box 56099<br />
+Madison, WI 53705</li>
+                        <li class=""><a class="" href="tel:1-800-482-8010" data-gtm-id="Footer" data-gtm-value="1-800-482-8010">1-800-482-8010</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="bg-accent1-master text-invert pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                        <a class="d-inline text-29" href="https://www.instagram.com/ChorusCommunityHealthPlans" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                                            <a class="d-inline text-29" href="https://www.facebook.com/ChorusCommunityHealthPlans" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                </div>
+                <div class="col-md-3 text-12">
+                    <div>
+                        <a href="/cchp-non-discrimination-disclaimer" class="o-6">CCHP Non-Discrimination Disclaimer</a><br />
+                        <a href="/together-non-discrimination-disclaimer" class="o-6">Individual and Family Plan Non-Discrimination Disclaimer</a><br />
+                    </div>
+                </div>
+                <div class="col-md-3 text-12">
+                    <a href="/privacy-policy" class="o-6">Notice of Privacy Practices</a><br />
+                    <a href="/terms-and-conditions" class="o-6">Terms and Conditions. All Rights Reserved</a>
+                    <p class="o-6">&copy; Chorus Community Health Plans 2024</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        
+<div class="js-cookie-consent cookie-consent w-100 py-1 bg-white text-dark shadow">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-md-9 col-lg-10 d-flex align-items-center">
+                <p class="mb-0">We use cookies to give you the best online experience. By agreeing you accept the use of cookies in accordance with our <a href="/pdfs/website-terms-and-conditions" data-gtm-id="Footer" data-gtm-value="/pdfs/website-terms-and-conditions">cookie policy</a></p>
+            </div>
+            <div class="col-sm-auto d-flex align-items-center justify-content-center">
+                <a href="#" class="js-accept-cookie-consent btn btn-sm btn-primary-master p-2 w-auto">Accept</a>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+</footer>
+
+        </div>
+    </main>
+
+    
+
+    <script src="/bundles/scripts?v="></script>
+
+
+    <script src="/Content/dist/scripts/fontawesome.min.js"></script>
+
+        <script src="/Content/dist/scripts/global.min.js"></script>
+
+    
+
+</body>
+</html>
